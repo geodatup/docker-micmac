@@ -29,6 +29,8 @@ make -j$NBRP
 make install 
 echo "*******************************************************"
 echo "********             MICMAC UPDATED           *********"
-echo "******** Edit by Sylvain POULAIN for Docker **********"
-echo "********    <sylvain.poulain@giscan.com>    **********"
+echo "******** Edit by Sylvain POULAIN for Docker  **********"
+echo "********    <sylvain.poulain@giscan.com>     **********"
+echo "********     and Hugo ROUSSAFFA for RPI     ***********"
+echo "********        <contact@geodatup.fr>        **********"
 echo "*******************************************************"

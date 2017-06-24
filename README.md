@@ -16,7 +16,7 @@ Docker is an ability to run virtual machine easyly. You could build a container 
 
 **Why a docker container for Micmac ?**
 
-I use Archlinux and building is a bit complicated. There is a user repository named AUR (Archlinux User Repository) with micmac but the build failed. Like many aur package's I tried to debug it but don't know if in fact in the future I could use micmac or not (depending on the results I could obtain with Micmac) ! That's why I created this docker container
+I use Archlinux and building is a bit complicated. There is a user repository named AUR (Archlinux User Repository) with micmac but the build failed. Like many aur package's I tried to debug it but don't know if in fact in the future I could use micmac or not (depending on the results I could obtain with Micmac) ! That's why Sylvain Poulain created this docker container.
 
 
 
@@ -24,11 +24,11 @@ I use Archlinux and building is a bit complicated. There is a user repository na
 
 First you have to build the container by typing in a terminal :
 
-`docker build -t giscan/micmac git://github.com/giscan/micmac-docker`
+`docker build -t geodatup/micmac git://github.com/geodatup/micmac-docker-rpi`
 
 Then you could launch CLI binaries from docker with 
 
-`docker run -it giscan/micmac mm3d`
+`docker run -it geodatup/micmac mm3d`
 
 Watch your container : 
 
@@ -39,12 +39,12 @@ Watch your container :
 
 Just remove it with docker : 
 
-`docker rmi -f giscan/micmac`
+`docker rmi -f geodatup/micmac`
 
 
 **Mercurial repository of Micmac is updated, how could I update micmac ?**
 
-`docker run -it giscan/micmac update_micmac.sh`
+`docker run -it geodatup/micmac update_micmac.sh`
 
 
 
