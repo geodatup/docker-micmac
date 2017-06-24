@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Sylvain POULAIN <sylvain.poulain@giscan.com> /docker-micmac
+FROM resin/rpi-raspbian:latest
+MAINTAINER Roussaffa Hugo - GeoDatup.fr - contact@geodatup.fr
 #Install dependencies
 RUN apt-get update && apt-get install -y --install-recommends \
 x11proto-core-dev make cmake libx11-dev mercurial subversion imagemagick gcc g++ \
