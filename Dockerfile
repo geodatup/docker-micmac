@@ -1,4 +1,4 @@
-FROM resin/rpi-raspbian:latest
+FROM ioft/armhf-ubuntu
 MAINTAINER Roussaffa Hugo - GeoDatup.fr - contact@geodatup.fr
 #Install dependencies
 RUN apt-get update && apt-get install -y --install-recommends \
