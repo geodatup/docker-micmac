@@ -1,4 +1,4 @@
-FROM ioft/armhf-ubuntu
+FROM ubuntu:14.04
 MAINTAINER Roussaffa Hugo - GeoDatup.fr - contact@geodatup.fr
 #Install dependencies
 RUN apt-get update && apt-get install -y --install-recommends \
