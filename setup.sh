@@ -5,7 +5,7 @@ echo "**********         user : culture3d          **********"
 echo "**********       password : culture3d        **********"
 echo "*******************************************************"
 cd /home
-hg clone https://culture3d:culture3d@geoportail.forge.ign.fr/hg/culture3d micmac
+git clone https://github.com/micmacIGN/micmac
 echo "*******************************************************"
 echo "************       MICMAC DOWNLOADED       ************"
 echo "*******************************************************"
