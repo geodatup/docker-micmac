@@ -4,7 +4,7 @@ echo "**********  (This may take several minutes)  **********"
 echo "**********         user : culture3d          **********"
 echo "**********       password : culture3d        **********"
 echo "*******************************************************"
-cd /home
+cd /
 git clone https://github.com/micmacIGN/micmac
 echo "*******************************************************"
 echo "************       MICMAC DOWNLOADED       ************"
